@@ -42,9 +42,22 @@ ssrmu.sh 脚本是单服务器多用户脚本，使用的是 SSR服务端的Mudb
 sudo su
 输入上面代码回车后会提示你输入当前用户的密码，输入并回车后，没有报错就继续下面的步骤安装ShadowsocksR。
 注意：如果你安装的有我的另一个 ssr.sh 脚本，请先卸载ShadowsocksR服务端，再安装这个脚本（不能共存）！
+```
 wget -N --no-check-certificate https://softs.fun/Bash/ssrmu.sh && chmod +x ssrmu.sh && bash ssrmu.sh
+```
+
 备用下载地址（上面的链接无法下载，就用这个）：
+
+```
 wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/ssrmu.sh && chmod +x ssrmu.sh && bash ssrmu.sh
+
+```
+本github链接
+```
+wget -N --no-check-certificate https://raw.githubusercontent.com/yimouleng/ShadowsocksR-from-doubi/master/ssrmu.sh && chmod +x ssrmu.sh && bash ssrmu.sh
+
+```
+
 下载运行后会提示你输入数字来选择要做什么。
 输入 1 ，就会开始安装ShadowsocksR服务端，并且会提示你输入Shadowsocks的 端口/密码/加密方式/ 协议/混淆（混淆和协议是通过输入数字选择的） 等参数来添加第一个用户。
 注意：用户名不支持中文，如果输入中文会一直保存下去！
